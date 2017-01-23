@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="A" verbose="1">
+    <!-- by default preserve-order is set to true; tests will be executed in the order specified here -->
+    <test name="all qa tests">
+        <packages>
+            <package name="com.adaptiveinsights.qa.*" />
+        </packages>
+    </test>
+</suite>

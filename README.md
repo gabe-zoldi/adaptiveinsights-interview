@@ -1,1 +1,3 @@
 # adaptiveinsights
+
+mvn clean test
